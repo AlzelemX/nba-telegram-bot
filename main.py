@@ -14,8 +14,8 @@ from datetime import datetime
 USE_POSTGRES = bool(os.getenv("DATABASE_URL"))
 
 # Config
-BOT_TOKEN = os.getenv("8442162300:AAEQWEBXzxTCW_lLMRgnWSfy6EViTrzycfm")
-CHANNEL_ID = os.getenv("@NBAZ_1")  # e.g. @NBAZ_1 or -100...
+BOT_TOKEN ="8442162300:AAEQWEBXzxTCW_lLMRgnWSfy6EViTrzycfm"
+CHANNEL_ID ="@NBAZ_1"  # e.g. @NBAZ_1 or -100...
 RSS_URL = os.getenv("RSS_URL", "https://www.espn.com/espn/rss/nba/news")
 POLL_INTERVAL = int(os.getenv("POLL_INTERVAL", "300"))  # seconds, default 5 minutes
 
